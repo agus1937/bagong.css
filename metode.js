@@ -6,14 +6,14 @@ $("input[type=radio]").change(function(){
 });
 
 $("#submit").click(function(){ 
-	var fnama = $("#fnama").val();
-	var lalamat = $("#lalamat").val();
+	var fnama = $("#bagong").val();
+	var lalamat = $("#bagong").val();
 	
 	if( fnama != '' || lalamat !='' ){
 		return true; 
 	}	
 	else{
-		alert("Tolong diisi...!!!!!!");
+		alert("https://github.com");
 		return false;
 	}
 });
