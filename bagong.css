@@ -1,0 +1,74 @@
+<style>
+@font-face{
+ src: url("lato-regular.ttf");
+ font-family: lato;
+}
+*{
+    font-family: lato;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+h2{
+    color: white;
+    text-shadow: 2px 3px 5px black;
+}
+.form-login{
+    background: white;
+    width: 35%;
+    margin: 0 auto;
+    border: 1px solid #e11616;
+}
+.form-header{
+    background: #e11616;
+    color: white;
+    padding: 10px 12px;
+    text-align: center;
+}
+.form-body{
+    padding: 8%;
+}
+input[type=text],
+input[type=password]{
+    background: transparent;
+    border-radius: 0;
+    border-bottom: 2px solid #e11616;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 80%;
+    margin-bottom: 10%;
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+input[type=text]:focus,
+input[type=password]:focus{
+    width: 85%;
+}
+input[type=submit]{
+    background: #e11616;
+    border-radius: 5px;
+    width: 80%;
+    color: white;
+    border: 1px solid transparent;
+    padding: 10px 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background: crimson;
+}
